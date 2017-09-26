@@ -57,7 +57,6 @@ query writeln hello, world! /*writes the line hello, world! to TESTDOC*/
 select count character e /*counts the number of times 'e' occurs in the file*/
 query close file /*closes the current active file, which is TESTDOC*/
 
-TODO LIST:
+COMING SOON:
 *ADD SUPPORT FOR --HELP COMMAND TO DETAIL THE DOCUMENTATION
 *ADD MORE SELECT FUNCTIONS
-*CREATE PRIVATE DIRECTORY NOT VISIBLE TO USER FOR STORING FILES/LINK TO INSTALLATION PROCESS IF POSSIBLE
