@@ -18,7 +18,8 @@ At its core, SIOL supports a few basic operations:
 
 SIOL has a simple, SQL-style syntax interface.
 
-```SYNTAX NOTES: ONLY ONE WHITESPACE BETWEEN IDENTIFIERS, ALL PHRASES MUST START WITH A KEYWORD
+```
+SYNTAX NOTES: ONLY ONE WHITESPACE BETWEEN IDENTIFIERS, ALL PHRASES MUST START WITH A KEYWORD
 KEYWORDS: QUERY, QUIT, --VERSION
 
 /*THE GENERAL SYNTAX OF A QUERY COMMAND IS QUERY [FUNCTION] [ARGUMENT]*/
@@ -75,7 +76,8 @@ Example:
 query file TESTDOC /*creates a file named testdoc.txt in the current working directory*/
 query writeln hello, world! /*writes the line hello, world! to TESTDOC*/
 select count character e /*counts the number of times 'e' occurs in the file*/
-query close file /*closes the current active file, which is TESTDOC*/```
+query close file /*closes the current active file, which is TESTDOC*/
+```
 
 
 ## Coming Soon
