@@ -1,7 +1,7 @@
 import sys
 import os 
 import shutil
-version = "Standard Input-Output Language V0.1-ALPHA"
+version = "Standard Input-Output Language V0.2-ALPHA"
 keywords = ['quit', 'query', '--version']
 ACTIVE_FILE = None
 ACTIVE_PATH = os.getcwd()
@@ -336,5 +336,5 @@ def main():
 	query = input("prompt>> ")
 	transact(query) 
 	main()
-
-main()
+if __name__= '__main__':
+	main()
